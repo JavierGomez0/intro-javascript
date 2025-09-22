@@ -31,6 +31,7 @@ const resultado = 0.1 + 0.2;
 //console.log(resultado.toFixed(1));
 //console.log(resultado == 0.3);
 
+
 //operaciones avanzadas
 const raizCuadrada = Math.sqrt(16);
 const valorAbsoluto = Math.abs(-5);
@@ -41,7 +42,8 @@ let numero = aleatorio * 20 + 10;
 //console.log(valorAbsoluto);
 //onsole.log(Math.trunc(numero));
 
+
 //ejemplo
 const numero2 = 2
 const booleano = true
-console.log(numero2 + booleano) 
+//console.log(numero2 + booleano) 
