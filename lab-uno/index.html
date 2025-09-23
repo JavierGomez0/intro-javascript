@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicios JavaScript</h1>
+
+    <!-- Botones para ejecutar los ejercicios -->
+    <button id="ejercicio1">Ejercicio 1: Números Positivo/Negativo</button>
+    <button id="ejercicio2">Ejercicio 2: Edad</button>
+    <button id="ejercicio3">Ejercicio 3: Numero del 1 al 100</button>
+    <button id="ejercicio4">Ejercicio 4: Orden Mayor-Menor</button>
+    <button id="ejercicio5">Ejercicio 5: Imprimir Pares</button>
+    <button id="ejercicio6">Ejercicio 6: Números Primos</button>
+
+    <!-- Incluir los archivos JS correspondientes -->
+    <script src="1-NumeroPositivo-Negativo.js"></script>
+    <script src="2-edad.js"></script>
+    <script src="11-numeroDel1-100.js"></script>
+    <script src="29-ordenMayor-Menor.js"></script>
+    <script src="14-imprimePares.js"></script>
+    <script src="28-numeroPrimos.js"></script>
+
+    <script>
+        // Evento para ejecutar el Ejercicio 1
+        document.getElementById('ejercicio1').addEventListener('click', function() {
+            console.log('Ejercicio 1: Números Positivo/Negativo');
+            ejercicio1();  // Asegúrate de que 'ejercicio1' esté definido en 1-NumeroPositivo-Negativo.js
+        });
+
+        // Evento para ejecutar el Ejercicio 2
+        document.getElementById('ejercicio2').addEventListener('click', function() {
+            console.log('Ejercicio 2: Edad');
+            ejercicio2();  // Asegúrate de que 'ejercicio2' esté definido en 2-edad.js
+        });
+
+        // Evento para ejecutar el Ejercicio 3
+        document.getElementById('ejercicio3').addEventListener('click', function() {
+            console.log('Ejercicio 3: Número del 1 al 100');
+            ejercicio3();  // Asegúrate de que 'ejercicio3' esté definido en 11-numeroDel1-100.js
+        });
+
+        // Evento para ejecutar el Ejercicio 4
+        document.getElementById('ejercicio4').addEventListener('click', function() {
+            console.log('Ejercicio 4: Orden Mayor-Menor');
+            ejercicio4();  // Asegúrate de que 'ejercicio4' esté definido en 29-ordenMayor-Menor.js
+        });
+
+        // Evento para ejecutar el Ejercicio 5
+        document.getElementById('ejercicio5').addEventListener('click', function() {
+            console.log('Ejercicio 5: Imprimir Pares');
+            ejercicio5();  // Asegúrate de que 'ejercicio5' esté definido en 14-imprimePares.js
+        });
+
+        // Evento para ejecutar el Ejercicio 6
+        document.getElementById('ejercicio6').addEventListener('click', function() {
+            console.log('Ejercicio 6: Números Primos');
+            ejercicio6();  // Asegúrate de que 'ejercicio6' esté definido en 28-numeroPrimos.js
+        });
+    </script>
+</body>
+</html>
